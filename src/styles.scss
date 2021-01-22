@@ -12,6 +12,19 @@ $primary: #f7f7f7;
 body {
   font-family: "Nunito", sans-serif;
 }
+// Border styling in tables
+th {
+  border-color: #777777;
+}
+
+td {
+  border-color: #777777;
+}
+
+#bordertop {
+  border-top-width: 1px;
+  border-color: #777777;
+}
 
 .navbar-dark .navbar-brand {
   color: #f7f7f7;
