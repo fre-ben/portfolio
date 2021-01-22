@@ -1,15 +1,22 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 
-$body-bg: #ddd;
-$body-color: #222;
-$primary: hotpink;
-$font-family-base: Arial;
+$body-bg: #1b1d27;
+$body-color: #f7f7f7;
+$primary: #f7f7f7;
 
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar-dark .navbar-brand {
+  color: #f7f7f7;
+  font-family: "Antic Didone", serif;
+}
 
 .fancy {
   display: inline-block;
