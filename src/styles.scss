@@ -11,6 +11,20 @@ $primary: #f7f7f7;
 // Add you custom CSS
 body {
   font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
+// Border styling in tables
+th {
+  border-color: #777777;
+}
+
+td {
+  border-color: #777777;
+}
+
+#bordertop {
+  border-top-width: 1px;
+  border-color: #777777;
 }
 
 .navbar-dark .navbar-brand {
@@ -33,4 +47,10 @@ body {
   );
   color: #fff;
   padding: 0.5em;
+}
+
+//Profilbild Styling
+.profilepic {
+  width: 300px;
+  border-radius: 50%;
 }
